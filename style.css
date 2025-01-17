@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(183, 175, 255);
+}
+
+h1{
+    font-size: 5rem;
+}
+.mobile{
+    display: none;
+}
+p{
+    font-size: 4rem;
+}
+
+span{
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+   body{
+        background-color: rgb(26, 129, 214);
+    }
+
+    .mobile{
+        display: block;
+    }
+
+    .pc{
+        display: none;
+    }
+}
